@@ -118,6 +118,14 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-flow:column wrap;
+    align-items: space-between;
+}
+
+.menu h2 {
+    width: 100%;
+    text-align: center;
 }
 
 /* footer section */
